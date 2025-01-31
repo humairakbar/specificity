@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Specificity</title>
+    <style>
+        *{
+            color: red;
+        }
+        #green{
+            color: green;
+        }
+        .purple{
+            color: purple;
+        }
+        .blue{
+            color: blue;
+        }
+        .purple{
+            color: purple;
+        }
+        h3{
+            color: aqua;
+        }
+
+
+    </style>
 </head>
 <body>
-    <h3>My awesome heading 1</h3>
+    <h3 style="color: yellow;" id="green" class="blue purple">My awesome heading 1</h3>
     <h3>My awesome heading 2</h3>
     <h3>My awesome heading 3</h3>
     <h3>My awesome heading 4</h3>
